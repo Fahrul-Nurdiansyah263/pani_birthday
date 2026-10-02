@@ -40,10 +40,10 @@ export default function App() {
           <img
             src="/vanny1.png"
             alt=""
-            className="lg:w-xl md:w-xs w-35 object-cover border-r"
+            className="lg:w-xl md:w-xs w-35 object-cover"
           />
 
-          <div className="flex flex-col items-center justify-center gap-4 border-l pl-5 lg:pl-10 xl:px-0 lg:px-3 text-justify">
+          <div className="flex flex-col items-center justify-center gap-4 border-l pl-5 xl:pl-10 xl:px-0 lg:px-3 text-justify">
 
             <p className="font-body">
               <span className="float-left text-8xl leading-[0.7] mr-2">R</span>
