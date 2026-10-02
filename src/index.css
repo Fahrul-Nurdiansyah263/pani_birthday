@@ -1,39 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..900&family=Libre+Baskerville:wght@400;700&family=UnifrakturCook:wght@700&display=swap');
+
 @import "tailwindcss";
 
-@keyframes marqueeScroll {
-  0% { transform: translateX(0%); }
-  100% { transform: translateX(-50%); }
-}
-
-.animate-marquee-scroll {
-  display: flex;
-  width: max-content;
-  animation: marqueeScroll 28s linear infinite;
-}
-
-.animate-marquee-scroll:hover {
-  animation-play-state: paused;
-}
-
-.animate-marquee-testimonial {
-  display: flex;
-  width: max-content;
-  animation: marqueeScroll 35s linear infinite;
-}
-
-.animate-marquee-testimonial:hover {
-  animation-play-state: paused;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.98); }
-  to { opacity: 1; transform: scale(1); }
-}
-
-.animate-fadeIn {
-  animation: fadeIn 0.2s ease-out forwards;
-}
-
-html {
-  scroll-behavior: smooth;
+@theme {
+    --font-masthead: "UnifrakturCook", cursive;
+    --font-headline: "Bodoni Moda", serif;
+    --font-body: "Libre Baskerville", serif;
 }
