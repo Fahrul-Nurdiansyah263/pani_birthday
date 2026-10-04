@@ -28,7 +28,7 @@ export default function App() {
       <div className="py-5 flex-col flex justify-center items-center">
 
         <h2 className="text-4xl text-center font-body uppercase">
-          Rannu Vanny Turns 21
+          Ranu Vanny Turns 21
         </h2>
 
         <p className="font-body">
@@ -47,7 +47,7 @@ export default function App() {
 
             <p className="font-body">
               <span className="float-left text-8xl leading-[0.7] mr-2">R</span>
-              annu Vanny Ramadhani turns 21 on October 4, and all major
+              anu Vanny Ramadhani turns 21 on October 4, and all major
               celebrations are officially underway. Surrounded by the people
               she loves, she begins a new chapter filled with new stories,
               new dreams, and plenty of moments worth remembering.
